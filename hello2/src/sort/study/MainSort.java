@@ -2,8 +2,13 @@ package sort.study;
 
 public class MainSort {
 	public static void main(String[] args) {
+//		System.out.println("Bouble Sort");
 //		BubbleSort.boubleSort();
-//		SelectionSort.selectionSort();
+//		
+		System.out.println("Selection Sort");
+		SelectionSort.selectionSort();
+		
+//		System.out.println("Insertion  Sort");
 //		InsertionSort.insertionSort();
 		
 		// SORT THE STRING 

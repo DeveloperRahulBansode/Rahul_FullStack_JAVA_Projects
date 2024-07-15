@@ -18,16 +18,16 @@ public class SelectionSort {
 				if (intArray[key] > intArray[j]) {
 					key = j;}
 			
-			//USING THIRD VARIABLE
-//			int temp = intArray[i];
-//			intArray[i] = intArray[key];
-//			intArray[key] = temp;
+//			USING THIRD VARIABLE
+			int temp = intArray[i];
+			intArray[i] = intArray[key];
+			intArray[key] = temp;
 			
-			//WITHOUT USING THIRD VARIABLE
-			if(key!=i) {
-			intArray[key]=intArray[key]+intArray[i];
-			intArray[i]=intArray[key]-intArray[i];
-			intArray[key]=intArray[key]-intArray[i];}
+//			//WITHOUT USING THIRD VARIABLE
+//			if(key!=i) {
+//			intArray[key]=intArray[key]+intArray[i];
+//			intArray[i]=intArray[key]-intArray[i];
+//			intArray[key]=intArray[key]-intArray[i];}
 		}
 		System.out.println();
 		System.out.println("After Sort ");

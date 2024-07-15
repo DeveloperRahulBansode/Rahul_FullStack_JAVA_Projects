@@ -14,4 +14,5 @@ public class MainStaticMethodDmo {
 		System.out.println("SHOW Message");
 	}
 
+	
 }

@@ -2,9 +2,10 @@ package sort.study;
 
 public class InsertionSort {
 
-	public static int[] intArray = { 5, 4, 3, 2, 1 };
+	public static int[] intArray = { 5, 8, 3, 7, 1 };
 
 	public static void insertionSort() {
+		
 		System.out.println("Before Sort ");
 		for (int no : intArray) {
 			System.out.print(no + " ");
